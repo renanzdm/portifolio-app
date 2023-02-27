@@ -1,0 +1,28 @@
+
+:root{
+  height: 100%;
+  background-image: linear-gradient(#22052d, #000328);
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.avatarImage {
+  content: "";
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  inset: 0;
+  padding: 4px; 
+  margin-top: 20px;
+  background-image:linear-gradient(45deg,red,blue); 
+}
+
